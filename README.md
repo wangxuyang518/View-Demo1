@@ -11,3 +11,6 @@
 view 自带方法，用于计算滑动的。每滑动一下就会调用下这个方法，我们可以在这个方法中获取view的 left/top/ 等点位信息。进而可以额外做处理。
 
 重要的一点是：  viewDragHelper.smoothSlideViewTo(releasedChild, w, 0); 并不能产生滑动，必须在computeScroll() 中在进一步的重新绘制，这样才能产生持续不间断的 动画
+
+最终效果图：
+![image.png](https://upload-images.jianshu.io/upload_images/2837456-b2037b4bb9e2fca2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
