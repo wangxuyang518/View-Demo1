@@ -13,4 +13,4 @@ view 自带方法，用于计算滑动的。每滑动一下就会调用下这个
 重要的一点是：  viewDragHelper.smoothSlideViewTo(releasedChild, w, 0); 并不能产生滑动，必须在computeScroll() 中在进一步的重新绘制，这样才能产生持续不间断的 动画
 
 最终效果图：
-![image.png](https://upload-images.jianshu.io/upload_images/2837456-b2037b4bb9e2fca2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![GIF.gif](https://upload-images.jianshu.io/upload_images/2837456-e731bada19eb5c0c.gif?imageMogr2/auto-orient/strip)
