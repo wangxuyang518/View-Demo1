@@ -14,3 +14,4 @@ view 自带方法，用于计算滑动的。每滑动一下就会调用下这个
 
 最终效果图：
 ![GIF.gif](https://upload-images.jianshu.io/upload_images/2837456-e731bada19eb5c0c.gif?imageMogr2/auto-orient/strip)
+
